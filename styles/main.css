@@ -16,7 +16,7 @@ header .logo{
    height: 3.6rem;
    width: 100%;
   background: black;
-   border: 1px solid blue;
+   border: none;
    display: flex;
    justify-content: space-between;
    position: fixed;
@@ -32,9 +32,9 @@ header img{
 
 .container{
   font-size: 1rem;
- /* background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('/assets/WhatsApp\ Image\ 2021-09-02\ at\ 16.08.20.jpeg')no-repeat;
- */ 
- background: url('/assets/faixadapib.jpeg')no-repeat;
+ background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('/assets/fachadapibb2.jpeg');
+ 
+
  
   background-size: cover;
 
