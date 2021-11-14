@@ -13,6 +13,7 @@ body{
     color: #fff;
 }
 header .logo{
+
    height: 3.6rem;
    width: 100%;
   background: black;
@@ -20,6 +21,7 @@ header .logo{
    display: flex;
    justify-content: space-between;
    position: fixed;
+   z-index: 10;
    
 }
 
@@ -33,15 +35,10 @@ header img{
 .container{
   font-size: 1rem;
  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('/assets/fachadapibb2.jpeg');
- 
-
- 
   background-size: cover;
 
-  height: 50rem;
+  height: 100vh;
  
-  
-
 }
 ul{
   list-style: none;  
@@ -56,4 +53,76 @@ ul{
     width: 2rem;
     margin-left: 2rem;
 }
+
+.section{
+   
+    height: 100vh;
+    z-index: -1;
+}
+#section1{
+    position: absolute;
+    top: 100%;
+    height: 100vh;
+    margin-top: 2.5rem;
+}
+#section2{
+    position: absolute;
+    top: 200%;
+    height: 100vh;
+}
+#section3{
+    position: absolute;
+    top: 300%;
+    height: 100vh;
+}
+#section4{
+    position: absolute;
+    top: 400%;
+    height: 100vh;
+}
+main{
+   
+    width: 100%;
+    margin-left: 2rem;
+}
+h2{
+    display: flex;
+   margin: 2rem 0;
+  
+   justify-content: center;
+   
+   
+}
+.topo{
+    display: flex;
+   justify-content: center;
+       padding: 1.5rem 0;  
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    border: 1px solid white;
+    margin-left: 2rem;
+}
+.about img{
+    
+    width: 14rem;
+
+
+}
+.about p{
+    margin: 1rem 2rem;
+}
+.arrow-up i{
+    display: flex;
+       justify-content: center;  
+       font-size: 4rem;
+       
+      }
+
+      .bold{
+          font-weight: 700;
+          color: aquamarine;
+      }
 
