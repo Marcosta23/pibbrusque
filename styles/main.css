@@ -68,35 +68,39 @@ ul{
 #section2{
     position: absolute;
     top: 200%;
+    width: 100%;
     height: 100vh;
+    background-image:  radial-gradient(rgb(47, 0, 255)5%, rgb(0, 174, 255) 90%);
+     margin-top: 1rem;   
 }
 #section3{
     position: absolute;
     top: 300%;
     height: 100vh;
+    
+    
 }
 #section4{
     position: absolute;
-    top: 400%;
+    top: 600%;
     height: 100vh;
 }
 main{
    
-    width: 100%;
+    width: 95%;
     margin-left: 2rem;
 }
-h2{
+.section h2{
     display: flex;
    margin: 2rem 0;
-  
-   justify-content: center;
+     justify-content: center;
    
    
 }
 .topo{
     display: flex;
    justify-content: center;
-       padding: 1.5rem 0;  
+    padding: 1.5rem 0;  
 }
 .about{
     display: flex;
@@ -114,7 +118,7 @@ h2{
 .about p{
     margin: 1rem 2rem;
 }
-.arrow-up i{
+ .arrow-up i{
     display: flex;
        justify-content: center;  
        font-size: 4rem;
@@ -125,4 +129,27 @@ h2{
           font-weight: 700;
           color: aquamarine;
       }
+
+      .schedule{
+        background-image:  radial-gradient(rgb(47, 0, 255)5%, rgb(0, 174, 255) 90%);
+        display: flex;
+        margin: 1.5rem 2rem;
+          justify-content: center;
+          align-items: center;
+        width: 90vw;
+          height: 74vh;
+          border-radius: 1rem;
+      }
+      h3{
+        text-transform: uppercase;
+        font-size: 2.5rem;
+      
+      }
+      .times{
+          font-size: 2rem;
+      }
+      .times-span{
+          font-size: 1.5rem;
+      }
+
 
