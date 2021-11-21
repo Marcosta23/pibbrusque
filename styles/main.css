@@ -115,8 +115,6 @@ main {
 }
 
 .schedule {
-  background-image: radial-gradient(rgb(47, 0, 255) 5%, rgb(0, 174, 255) 90%);
-
   margin: 0rem 2rem;
   justify-content: center;
   align-items: center;
@@ -142,4 +140,9 @@ h3 {
 }
 .grid-prime {
   display: flex;
+  background-image: radial-gradient(rgb(47, 0, 255) 5%, rgb(0, 174, 255) 90%);
+}
+.box-culto {
+  width: 30%;
+  height: 30%;
 }
